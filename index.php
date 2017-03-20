@@ -11,6 +11,8 @@ if(array_key_exists('PATH_INFO',$_SERVER)){//判断路径是否存在
 	if(count($arr)==2){
 		$path = $arr[0];
 		$filename = $arr[1];
+	}else{
+		$filename = 'login';
 	}
 }else{
 	$filename = 'login';
