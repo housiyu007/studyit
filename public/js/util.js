@@ -2,7 +2,7 @@ define(['jquery'], function($) {
 
     return {
         showMes: function(pathname) {
-            $(".navs a[href='" + pathname + "']").addClass("active").closest().show();
+            $(".navs a[href='" + pathname + "']").addClass("active").closest('ul').show();
         },
         ps:function(pname){
         	var pathname = location.search;

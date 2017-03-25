@@ -1,7 +1,7 @@
 //添加讲师
 define(['jquery','util','template','datepicker','language','validate','form'],function($,util,template){
 
-	util.setMenu('/teacher/list');
+	util.showMes('/teacher/list');
 	
 	var tc_id = util.ps('tc_id');
 	if(tc_id){
